@@ -1,3 +1,24 @@
 <!-- Hello KB ! -->
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function showit()
+        {
+            // alert("Hello World");
+            var myalert=document.getElementById("atext").value;
+            alert(myalert);
+        }
+    </script>
+    <!-- <input type="text" id="atext"> -->
+    <textarea id="atext" rows="10" cols="20"></textarea>
+    <input type="submit" value="Click Me" onclick="showit()">
+</body>
+</html>

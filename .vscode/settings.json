@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/QR+Code+Generator+(For+Blogger)_NarendraDwivedi.zip": true,
+        "*.zip": true,
+        "QR+Code+Generator+(For+Blogger)_NarendraDwivedi.zip": true,
+        "**/*.zip": true
+    },
+    "explorerExclude.backup": {}
+}
